@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+*  {
+  box-sizing: border-box;
+  font-family: Mulish;
+}
+header {
+display: flex;
+width: 100vw;
+height: 100vh;
+background: url('home-bg.jpg'); no-repeat -170px -70px color: transparent;
+}
+.nav {
+  justify-content: space-betwwn;
+  align-items:
+  background-color: #455a64;
+  padding: 8px 12px;
+}
+.container_menu{
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  justify-content: space-between;
+  align-items;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.container_menu li {
+   padding: 8px; 12px;
+}
